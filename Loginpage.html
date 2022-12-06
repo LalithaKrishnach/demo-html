@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <title>
+        Login Page
+    </title> 
+    <link rel="stylesheet" href= "CSS/style.css">
+    <script src="Javascript/script.js"></script>
+</head>
+<body>
+    <div id="picture-css">
+</div>
+<div class="container">
+<nav class="menu">
+    <a href="Loginpage.html">Login Page</a> &nbsp;&nbsp;&nbsp;
+    <a href="Page1.html">Page 1</a> &nbsp;&nbsp;&nbsp;
+    <a href="Page 2.html">Page 2</a> &nbsp;&nbsp;&nbsp;
+    <a href="Loginpage.html">Logout</a> &nbsp;&nbsp;&nbsp;
+</nav>
+<article class="main">
+    <form name="form">
+        <ul style="list-style-type:none;">
+          <li><label for="usermail" class="headerlogin">Username</label>
+          <input type="text" id="usermail" name="usermail" placeholder="yourname@email.com" ></li>
+          <li><label for="password" class="headerlogin">Password</label>
+          <input type="password" name="password" placeholder="password" ></li>
+          <li>
+          <input type="button" id="Login button" value="Login" onclick= allowlogin(usermail) ></li>
+        </ul>
+      </form>
+</article>
+</div>
+</body>
+</html>
